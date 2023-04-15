@@ -15,6 +15,7 @@ def run_script(option=""):
     elif "alphatauri" in option or "alpha tauri" in option or "at" in option: new_team = 8
     elif "alfa" in option or "romeo" in option: new_team = 9
     elif "aston" in option or "martin" in option: new_team = 10
+    elif "audi" in option: new_team = 11
     else: new_team = -1
     
     if new_team > 0:
